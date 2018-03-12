@@ -1,10 +1,10 @@
-EXE1=primal
+EXE1=producer
 EXE2=user
 CC=gcc
 C_FLAGS=-Wall -pedantic -O3
 C_LIBS=
-OBJ1=conn_handler.o primal.o
-OBJ2=user.o
+OBJ1=conn_handler.o producer.o
+OBJ2=consumer.o
 
 .PHONY : clean mrproper
 
